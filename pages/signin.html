@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>RESPAWN</title>
+        <script src="../index.js"></script>
+        <link rel="icon" href="../images/rockstar-games.svg">
+        <link rel="stylesheet" href="../stylesheets/style.css" type="text/css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/4ffb0e0530.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <div id="account">
+                    <a href="../pages/signup.html"><i class="fas fa-user-plus"></i></a>
+                    <b class="account_text">SignUp</b>
+                    <a href="../pages/signin.html"><i class="fas fa-user-tie"></i></a>
+                    <b class="account_text">SignIn</b>
+                </div>
+                <ul class="icons">
+                    <li><a href="https:instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://github.io" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://telegram.com" target="_blank"><i class="fab fa-telegram"></i></a></li>
+                </ul>
+                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="../images/rockstar-games.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                            RESPAWN
+                          </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link" href="index.html">GAMES</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="news.html">NEWSWIRE</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="support.html">SUPPORT</a>
+                          </li>
+                      </div>
+                    </div>
+                  </nav>
+                  <a onclick="myFunction()" id="signup" href="#"><i class="fas fa-user"></i></a>
+                  <div class="search_box">
+                    <input class="input_box" type="text" placeholder="Search...">
+                    <a class="btn" href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                  </div>
+            </div>
+        </div>
+     <div id="formSignIn">
+         <h1><b>Sign In</b></h1>
+           <form class="formIn">
+            <label for="email">Email Or Mobile Number</label><br>
+            <input type="text" id="email" name="email" placeholder="Email Or Mobile Number..."><br><br>
+            <label for="pswd">Enter Your Password</label><br>
+            <input type="text" id="pswd" name="pswd" placeholder="Enter Your Password..."><br><br>
+            <input class="sub-btn" type="submit" value="Sign In"><br>
+            <h6><b>Dont Have An Account?</b></h6>
+            <a href="../pages/signup.html">(Sign Up)</a>
+            <h3>OR</h3><br>
+           <div class="btnIn">
+            <a class="Gbtn" href="https://google.com" target="_blank">
+                <i class="fab fa-google">&nbsp;&nbsp;Continue With Google</i>
+              </a><br>
+            <a class="Fbtn" href="https://facebook.com" target="_blank">
+                <i class="fab fa-facebook">&nbsp;&nbsp;Continue With Facebook</i>
+              </a>
+           </div>  
+            </form><br>
+     </div>  
+     <div id="footer">
+        <div class="footer-main-div">
+
+            <div class="footer-social-icons">
+                <ul>
+                    <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-menu-one">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-menu-two">
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Media</a></li>
+                </ul>
+            </div>
+            </div>
+        
+            <div class="footer-bottom">
+                <p>COPYRIGHTS &copy;<a href="#">ALL RIGHTS ARE RESERVED</a></p>
+            </div>
+        </div>
+    </body>
+</html>
